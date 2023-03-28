@@ -7,6 +7,7 @@ body {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color:#a49d9c;
 }
 
 #landing {
@@ -114,10 +115,13 @@ body {
   text-decoration:none;
 }
 .primaryText2:hover{
-background-color: #FFEAEA;
+background-color: #a4592252;
   border-radius: 5px;
   font-weight: bold;
   cursor:pointer;
+  color: #11f129;
+  font-size: 20px;
+  transition: all .8s;
 }
 .primaryText-bold {
   color: #212b35;
@@ -127,7 +131,8 @@ background-color: #FFEAEA;
 }
 
 .secondaryText {
-  color: #637381;
+  /*color: #d9bebe;*/
+  color: #ecf6ff;
   line-height: 1.25;
 }
 
