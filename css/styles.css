@@ -107,11 +107,16 @@ body {
 .primaryText {
   color: #212b35;
   line-height: 1.5;
+}
+.primaryText2 {
+  color: #212b35;
+  line-height: 1.5;
   text-decoration:none;
 }
-.primaryText:hover{
+.primaryText2:hover{
 background-color: #FFEAEA;
-  font-size: large;
+  border-radius: 5px;
+  font-weight: bold;
   cursor:pointer;
 }
 .primaryText-bold {
