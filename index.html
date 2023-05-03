@@ -1,4 +1,4 @@
-<!---
+     <!---
 ██╗  ██╗███████╗██╗     ██╗      ██████╗     ██╗    ██╗ ██████╗ ██████╗ ██╗     ██████╗
 ██║  ██║██╔════╝██║     ██║     ██╔═══██╗    ██║    ██║██╔═══██╗██╔══██╗██║     ██╔══██╗
 ███████║█████╗  ██║     ██║     ██║   ██║    ██║ █╗ ██║██║   ██║██████╔╝██║     ██║  ██║
@@ -49,7 +49,7 @@ Greetings !
                         target="_blank">
                     </a>
                 </div>
-                <a href="https://drive.google.com/file/d/1GQvIBDpCslBLQvKku4RbYDL64CWx9akb/view?usp=share_link" target="_blank"> <button class="primaryButton" id="resumeButton"> 
+                 <a href="https://drive.google.com/file/d/1GQvIBDpCslBLQvKku4RbYDL64CWx9akb/view?usp=share_link" target="_blank"> <button class="primaryButton" id="resumeButton"> 
                     RESUME
                 </button> </a>
                 <div class="arrow bounce">
@@ -70,9 +70,9 @@ Greetings !
 
             <div id="experience" class="centering">
                 <h3 class="headingText">Experience</h3>
+                <button id="btn123" onclick="toghide()">SHOW/HIDE</button>
                 <div class="grid">
-
-                    <div class="card">
+                    <div class="card" id="qw12">
                         <p class="primaryText-bold">Part time worker</p>
                         <p class="primaryText">Ags transact technologies LTD., Siliguri</p>
                         <p class="secondaryText">
@@ -82,23 +82,25 @@ Greetings !
                 
                     
 
-                    <div class="card">
+                    <div class="card" id="qw13">
                         <p class="primaryText-bold">Part time worker </p>
                         <p class="primaryText">Reliance , Siliguri</p>
                         <p class="secondaryText">
                             FEB 2022 - JULY 2022
                         </p>
                     </div>
-
                     
+                   
                 </div>
+                
             </div>
         
             <div id="education" class="centering">
                 <h3 class="headingText">Education</h3>
+                <button id="btn123" onclick="toghide2()">SHOW/HIDE</button>
                 <div class="grid">
 
-                    <div class="card">
+                    <div class="card" id="as1">
                         <p class="primaryText-bold">Undergraduate School</p>
                         <p class="primaryText">Siliguri Institute of Technology</p>
                         <p class="secondaryText">
@@ -107,7 +109,7 @@ Greetings !
                         </p>
                     </div>
 
-                    <div class="card">
+                    <div class="card" id="as2" >
                         <p class="primaryText-bold">Higher Secondary School</p>
                         <p class="primaryText">B.S.F Sr. Sec. School, Siliguri</p>
                         <p class="secondaryText">
@@ -116,7 +118,7 @@ Greetings !
                         </p>
                     </div>
 
-                    <div class="card">
+                    <div class="card" id="as3">
                         <p class="primaryText-bold">Secondary School</p>
                         <p class="primaryText">B.S.F Sr. Sec. School, Siliguri</p>
                         <p class="secondaryText">
@@ -130,9 +132,10 @@ Greetings !
 
             <div id="projects" class="centering">
                 <h3 class="headingText">Projects</h3>
+                <button id="btn123" onclick="toghide3()">SHOW/HIDE</button>
                 <div class="grid">
                     
-                    <div class="card">
+                    <div class="card" id="zx1">
                         <p class="primaryText-bold">PORTFOLIO</p>
                         <p>
                             <a class="primaryText2" href="https://harshjha15.github.io/webpage.github.io/" target="_blank">View Project</a>&nbsp;&nbsp;
@@ -213,7 +216,6 @@ Greetings !
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div id="footer">
@@ -237,8 +239,39 @@ Greetings !
         </div>
 
     </section>
-
-    
+    <script>
+        function toghide(){
+   if(qw12.style.display!='none'){
+   qw12.style.display='none';
+   qw13.style.display='none';
+   }
+   else{
+    qw12.style.display='block';
+    qw13.style.display='block';
+   }
+}
+function toghide2(){
+   if(as1.style.display!='none'){
+   as1.style.display='none';
+   as2.style.display='none';
+   as3.style.display='none';
+   }
+   else{
+    as1.style.display='block';
+    as2.style.display='block';
+    as3.style.display='block';
+   }
+}
+function toghide3(){
+   if(zx1.style.display!='none'){
+   zx1.style.display='none';
+   }
+   else{
+    zx1.style.display='block';
+   }
+}
+    </script>
+ 
 
 </body>
 
