@@ -7,7 +7,7 @@ body {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color:#a49d9c;
+  background-color:#000000;
 }
 
 #landing {
@@ -26,7 +26,22 @@ body {
   margin: 0 auto;
   padding-top: 4rem;
 }
-
+#btn123{
+  color:#ffffff;
+  font-weight: bolder;
+  background-color:black;
+  border-radius: 10px;
+  border-color: #000000;
+  margin: 10px;
+  padding: 10px;
+}
+#btn123:hover{
+  color:#cd5959;
+  background-color:rgb(64, 58, 58);
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: #000000; 
+}
 #name {
   font-size: 4rem;
   font-weight: 500;
@@ -106,27 +121,31 @@ body {
 }
 
 .primaryText {
-  color: #212b35;
+  color: #ffffff;
   line-height: 1.5;
 }
+.primaryText:hover{
+  color:#afca8f;
+}
 .primaryText2 {
-  color: #212b35;
+  color: #ffffff;
   padding: 8px;
   line-height: 1.5;
   text-decoration:none;
 }
 .primaryText2:hover{
-background-color: #a4592252;
-border: 2px solid black;
+  color:#afca8f;
+}
+.primaryText2:hover{
   border-radius: 10px;
   font-weight: bold;
   cursor:pointer;
-  color: #11f129;
+  color: #79a47d;
   font-size: 20px;
   transition: all .5s;
 }
 .primaryText-bold {
-  color: #212b35;
+  color: #abc2d9;
   line-height: 1.5;
   font-weight: 500;
   font-size: 1.1rem;
@@ -154,6 +173,9 @@ border: 2px solid black;
   color: #ecf6ff;
   line-height: 1.25;
 }
+.secondaryText:hover{
+  color:#afca8f;
+}
 
 /* Buttons */
 .primaryButton {
@@ -179,7 +201,14 @@ border: 2px solid black;
 #socialContainer {
   margin-top: 1rem;
 }
-
+#exp{
+  padding: 10px 15px;
+  color: red;
+  background-color: aqua;
+  border:2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
 .social {
   will-change: scale, translateY;
   color: #fff;
