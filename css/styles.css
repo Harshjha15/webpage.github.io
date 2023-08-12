@@ -114,7 +114,7 @@ body {
 /* Text */
 
 .headingText {
-  color: #5c6ac4;
+  color: #d9d769;
   margin-top: 3rem;
   text-transform: uppercase;
 }
@@ -144,7 +144,7 @@ body {
   transition: all .5s;
 }
 .primaryText-bold {
-  color: #abc2d9;
+  color: #007fff;
   line-height: 1.5;
   font-weight: 500;
   font-size: 1.1rem;
